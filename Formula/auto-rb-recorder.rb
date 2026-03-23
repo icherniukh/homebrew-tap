@@ -13,7 +13,6 @@ class AutoRbRecorder < Formula
   service do
     run [opt_bin/"auto-rb-recorder"]
     keep_alive true
-    run_type :mac_os
     log_path var/"log/auto-rb-recorder.log"
     error_log_path var/"log/auto-rb-recorder.error.log"
   end
