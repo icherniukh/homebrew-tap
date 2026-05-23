@@ -1,9 +1,9 @@
 class AutoRbRecorder < Formula
   desc "Automatic Pioneer Rekordbox Session Audio Recorder"
   homepage "https://github.com/icherniukh/auto-rb-recorder"
-  url "https://github.com/icherniukh/auto-rb-recorder/releases/download/v0.1.2/auto-rb-recorder-macos-universal.zip"
-  sha256 "bbcbdc6632c8138c89d9aa481940e88662fc62fcf4535a5b39a9de16ad2497a1"
-  version "0.1.2"
+  url "https://github.com/icherniukh/auto-rb-recorder/releases/download/v1.1.1/auto-rb-recorder-macos-universal.zip"
+  sha256 "33ac5ad4bf403631643df6b6cf7ac6942c8649b6007256b0ed5dd254244654c2"
+  version "1.1.1"
 
   def install
     bin.install "auto-rb-recorder"
