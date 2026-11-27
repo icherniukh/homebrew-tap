@@ -1,8 +1,8 @@
 class Sessiontape < Formula
   desc "Automatic Pioneer Rekordbox session audio recorder"
   homepage "https://github.com/icherniukh/sessiontape"
-  url "https://github.com/icherniukh/sessiontape/releases/download/v1.3.0/sessiontape-macos-universal.zip"
-  sha256 "70b07dd49578dd39d67f4d6d0051f9fb916c38efd5d292fc65c4c8ce1dd733c1"
+  url "https://github.com/icherniukh/sessiontape/releases/download/v1.4.0/sessiontape-macos-universal.zip"
+  sha256 "f22ba8cd19eac0ccca259e0eb1e2ea55243caa58beefc6b84ce7858cc1a240e8"
   license "GPL-3.0-or-later"
 
   conflicts_with "sessiontape-preview", because: "both install a `sessiontape` binary"
